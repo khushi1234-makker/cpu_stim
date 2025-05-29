@@ -1,0 +1,233 @@
+/* FCFS.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.container p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.input-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.input-table th,
+.input-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.input-table th {
+  background-color: #fcefee;
+  color: #333;
+}
+
+.input-table input {
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f8fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.num-processes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.num-processes button {
+  padding: 6px 12px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.run-btn,
+.reset-btn {
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.run-btn {
+  background-color: #2ecc71;
+}
+
+.run-btn:hover {
+  background-color: #27ae60;
+}
+
+.reset-btn {
+  background-color: #e74c3c;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+.algorithm-info {
+  text-align: left;
+  margin-top: 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+ h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: #2c3e50;
+    
+}
+
+.gantt-chart {
+  display: flex;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.gantt-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-right: 1px solid #fff;
+}
+
+.gantt-timeline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  padding: 0 5px;
+  color: #333;
+}
+.output-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.output-table thead {
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.output-table th,
+.output-table td {
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.output-table tbody tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.output-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.output-table tbody tr:hover {
+  background-color: #e9f2ff;
+  cursor: default;
+}
+
+.output-table th:first-child,
+.output-table td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.output-table th:last-child,
+.output-table td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.pie-wrapper {
+  border: 2px solid #f75f5f;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.chart-stats {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+.chart-stats strong {
+  color: #b30000;
+}
